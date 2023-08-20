@@ -1,0 +1,31 @@
+.optionsBtnList {
+  justify-content: center;
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  color: #4d5ae5;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background: #f4f4fd;
+}
+
+.button:hover,
+:focus {
+  color: #fff;
+
+  border-radius: 4px;
+  background: #404bbf;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
